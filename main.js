@@ -12,6 +12,7 @@ submit$.addEventListener('click', async () => {
     // add 5 cells using the index
     for (let i = 1; i <= 5; i++) {
         const cell = row.insertCell(-1);
+        cell.classList.add(Math.random() > .5 ? 'hit' : 'wrong-pos');
         cell.appendChild(document.createTextNode(i));
     }
 

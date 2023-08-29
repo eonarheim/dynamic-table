@@ -3,3 +3,18 @@ th, td {
     padding: 10px;
     border-radius: 4px;
 }
+
+.hit {
+    background-color: green;
+    color: white;
+}
+
+.wrong-pos {
+    background-color: yellow;
+    color: black;
+}
+
+.miss {
+    background-color: gray;
+    color: white;
+}
